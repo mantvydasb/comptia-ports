@@ -34,11 +34,11 @@ PORTS = [
     ]
 
 
-def askNextPort(randomIndex):
+def askForNextPort(randomIndex):
     print(str(PORTS[randomIndex][0]) + " port?")
 
 
-def capturePort():
+def captureAnswer():
     return input()
 
 
@@ -48,11 +48,11 @@ def getActualPort(randomIndex):
 
 while True:
     randomIndex = random.randint(0, PORTS.__len__() - 1)
-    askNextPort(randomIndex)
-    portUser = capturePort()
+    askForNextPort(randomIndex)
+    answer = captureAnswer()
     portActual = getActualPort(randomIndex)
 
-    if portUser == portActual:
+    if answer == portActual:
         print("Correct!")
     else:
         print("Incorrect! " + portActual)
