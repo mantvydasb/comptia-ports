@@ -57,4 +57,3 @@ while True:
     else:
         print("Incorrect! " + portActual)
     print()
-
