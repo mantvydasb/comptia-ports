@@ -38,6 +38,7 @@ PORTS = [
         ("L2TP", "u1701"),
         ("MS SQL", 1433),
         ("Citrix management", 1494, 2598),
+        ("Oracle listener", 1521),
         ("PP2P", 1723),
         ("RDP", 3389),
         ("IRC", "6662-6667"),
