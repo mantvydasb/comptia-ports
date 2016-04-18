@@ -40,6 +40,7 @@ PORTS = [
         ("Citrix management", 1494, 2598),
         ("Oracle listener", 1521),
         ("PP2P", 1723),
+        ("Global catalog service", 3268),
         ("RDP", 3389),
         ("IRC", "6662-6667"),
     ]
