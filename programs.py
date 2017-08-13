@@ -121,12 +121,21 @@ PROGRAMS = [
         ("Shares Finder", "[mobile] a real app"),
         ("Packet Generator", "[mobile] a real app"),
         ("Packet Capture", "[mobile] a real app"),
-        ("PacketShark", "[mobile] a real app"),
+        ("PacketShark", "[mobile] packet sniffing"),
         ("Network Discovery", "[mobile] a real app"),
         ("PacketShark", "[mobile] a real app"),
+        
+        # session hijacking
         ("DroidSheep", "[mobile] session hijack. root required"),
         ("FaceNiff", "[mobile] session sniffing/hijack"),
         ("SSLstrip", "[mobile] session sniffing/hijack"),
+        ("Hunt", "session sniffing/hijack"),
+        ("Firesheep", "session hijacking. Cookies inspection"),
+        ("T-Sight", "session hijacking"),
+        ("Paros", "session hijacking, more known as a proxy"),
+        ("Juggernaut", "session hijacking"),
+
+        
         ("AnDOSid", "[mobile] real app"),
         ("Easy Packet Blaster", "[mobile] DOS, real app"),
         ("WPScan", "[mobile] WP vulnerability scanner"),
@@ -163,7 +172,7 @@ PROGRAMS = [
         # other
         ("Orbot", "Proxy from TOR project"),
         ("Orweb", "Browser working with Orbot"),
-        ("EliteWrap", "A trojan packer"),
+        ("EliteWrap", "A trojan wrapper/packer"),
         ("Saran Wrap", "A trojan packer for BackOrifice"),
         ("Stealth Tool", "Allows hiding trojans"),
         ("Firekiller 2000", "A trojan packer"),
@@ -190,13 +199,21 @@ PROGRAMS = [
         ("Ghost Keylogger", "Real app, keylogger"),
         ("IKS Software Keylogger", "Real app, keylogger"),
         ("WhoReadMe", "Tracks emails, provides OS info"),
-        ("Firesheep", "session hijacking. Cookies inspection"),
         ("CANVAS", "Similar to metasploit"),
         ("Coret Impact", "Similar to metasploit, pentest automation"),
         ("PDQ deploy / dameware / remote exec", "Remote code execution, deployment"),
         ("WinZapper", "covering tracks"),
         ("Evidence Eliminator", "covering tracks"),
         ("elsave", "covering tracks"),
+
+        # system monitoring
+        ("SysAnalyzer", "Registry / system monitoring"),
+        ("Tiny Watcher", "Registry / system monitoring"),
+        ("Active Registry Monitor", "Registry / system monitoring"),
+        ("Smart Utility", "Processes / system monitoring"),
+        ("Service Manager Plus", "Processes / system monitoring"),
+        ("SIGVERIF", "Verify critical files are signed / not altered"),
+        ("Tripwire", "Integrity verifier"),
         
         # site rippers
         ("BlackWidow", "Site ripper"),
@@ -224,6 +241,7 @@ PROGRAMS = [
 
         # bots & ddos
         ("BotPlug", "[DOS] Botnet creation"),
+        ("R-U-Dead-Yet", "[DOS] similar to LOIC"),
         ("Shark", "[DOS] Botnet creation"),
         ("PoisonIvy", "[DOS] Botnet creation"),
         ("LOIC", "[DDOS] Botnet creation. Anonymous group uses it."),

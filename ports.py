@@ -27,15 +27,15 @@ PORTS = [
         ("LDAP", 389),
         ("HTTPS", 443),
         ("CIFS", 445),
-        # ("SMTP (SSL/TLS)", 465),
-        # ("IPSec", "u500"),
+        ("SMTP (SSL/TLS)", 465),
+        ("IPSec", "u500"),
         ("Syslog", 514),
         ("LDAP (SSL/TLS)", 636),
-        # ("IMAP (SSL/TLS)", 993),
-        # ("POP (SSL/TLS)", 995),
+        ("IMAP (SSL/TLS)", 993),
+        ("POP (SSL/TLS)", 995),
         ("Socks5", 1080),
         ("Nessus Server", 1241),
-        # ("L2TP", "u1701"),
+        ("L2TP", "u1701"),
         ("MS SQL", 1433),
         ("Citrix management", 1494, 2598),
         ("Oracle listener", 1521),
@@ -43,6 +43,20 @@ PORTS = [
         ("Global catalog service", 3268),
         ("RDP", 3389),
         ("IRC", "6662-6667"),
+        
+        # trojan ports
+        ("TCP Wrappers", "421"),
+        ("Doom", "666"),
+        ("Snipernet", "667"),
+        ("Tini", "7777"),
+        ("WinHole", "1080, 1081"),
+        ("RAT", "1095, 1097, 1098"),
+        ("SpySender", "1807"),
+        ("Deep Throat", "2140, 3150"),
+        ("NetBus", "12345, 12346"),
+        ("Whack A Mole", "12362, 12363"),
+        ("Back Orifice", "31377, 31338"),
+
     ]
 
 
